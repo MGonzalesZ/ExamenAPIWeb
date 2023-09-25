@@ -10,4 +10,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ExamenAPIWeb.Entities\ExamenAPIWeb.Entities.csproj" />
+    <ProjectReference Include="..\ExamenAPIWeb.LOGICA\ExamenAPIWeb.LOGICA.csproj" />
+  </ItemGroup>
+
 </Project>
