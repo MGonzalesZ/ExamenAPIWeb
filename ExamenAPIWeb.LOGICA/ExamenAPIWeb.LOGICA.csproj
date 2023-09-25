@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ExamenAPIWeb.DAL\ExamenAPIWeb.DAL.csproj" />
+    <ProjectReference Include="..\ExamenAPIWeb.Entities\ExamenAPIWeb.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
