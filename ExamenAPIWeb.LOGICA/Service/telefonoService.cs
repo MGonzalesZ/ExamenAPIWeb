@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace ExamenAPIWeb.LOGICA.Service
 {
-    internal class telefonoService
+    public class telefonoService
     {
+        private TelfRepository _telfRepository;
+
+        public TelfRepository(TelfRepository telfRepository)
+        {
+            _telfRepository = telfRepository;
+        }
+
+        public Usuario CrearTelf(string Nombre, string NumeroTelefonico)
+        {
+            return _telfRepository.Agregar(Nombre, NumeroTelefonico);
+        }
     }
 }
